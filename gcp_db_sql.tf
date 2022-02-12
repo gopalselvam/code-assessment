@@ -4,7 +4,7 @@ resource "google_sql_database_instance" "sql_db" {
   ]
   name = "sqldb101"
   database_version = "MYSQL_5_7"
-  region       = "asia-southeast1"
+  region       = "us-central1"
   settings {
     tier = "db-f1-micro"
 
